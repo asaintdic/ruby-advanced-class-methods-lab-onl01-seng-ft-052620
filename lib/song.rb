@@ -48,6 +48,7 @@ class Song
    def self.new_from_filename(file_name)
      song = song.new
      song.file_name.split(/[-.] /)
+     artist_name = song.file_name
   #def self.creat_from_file_name
   #def self.destroy_all
 
