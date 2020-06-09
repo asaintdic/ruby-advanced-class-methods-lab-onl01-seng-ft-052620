@@ -36,8 +36,7 @@ class Song
   end  
     
    def self.find_or_create_by_name(string)
-     self.name
-     self.name == find_by_name(string) ? self.name : create_by_name(string)
+     find_by_name(string) || create_by_name(string)
   end
     
      
