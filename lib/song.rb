@@ -47,7 +47,7 @@ class Song
   
    def self.new_from_filename(file_name)
      song = song.new
-     song.file_name.split
+     song.file_name.split(/[-.] /)
   #def self.creat_from_file_name
   #def self.destroy_all
 
