@@ -44,7 +44,8 @@ class Song
    def self.alphabetical 
      self.all.sort {|song1, song2| song1.name <=> song2.name}
    end 
-  #def self.new_from_filename
+  
+   def self.new_from_filename
   #def self.creat_from_file_name
   #def self.destroy_all
 
