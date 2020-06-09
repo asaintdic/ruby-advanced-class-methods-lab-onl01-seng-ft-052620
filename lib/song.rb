@@ -51,7 +51,8 @@ class Song
     song.artist_name = (file_name.split(" - ")[0])
     song
     end
-  #def self.creat_from_file_name
+  
+  def self.creat_from_file_name
   #def self.destroy_all
 
 
