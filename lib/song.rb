@@ -52,7 +52,7 @@ class Song
     song
     end
   
-  def self.create_from_file_name(file_name)
+  def self.create_from_filename(file_name)
     song = self.new 
     song.name = (file_name.split(" - ")[1].chomp(".mp3"))
     song.artist_name = (file_name.split(" - ")[0])
